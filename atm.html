@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atm</title>
+</head>
+<style>
+    body {
+        justify-items: center;
+        align-content: center;
+        height: 90vh;
+    }
+
+    .parent {
+        height: 400px;
+        border: 1px solid black;
+        width: 300px;
+        border-radius: 5px;
+        background-color: cadetblue;
+    }
+
+    input {
+        width: 293px;
+        height: 50px;
+    }
+
+    .display {
+        height: 70px;
+        align-content: center;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        border: 1px solid black;
+        background-color: burlywood;
+    }
+
+    button {
+        margin: 20px 40px;
+        padding: 10px;
+        width: 200px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <input type="text" id="amountInp" placeholder="Enter Amount">
+        <div class="display" id="displaybalance"></div>
+        <div><button onclick="withdrawl()">Withdrawl</button></div>
+        <div><button onclick="deposit()">Deposit</button></div>
+        <div><button onclick="checkbalance()">Check Balance</button></div>
+    </div>
+    <script>
+        let balnace = 0;
+        const displaybalance = document.getElementById("displaybalance")
+        const parent = document.getElementsByClassName("parent")
+        const amountInp = document.getElementById("amountInp")
+        function withdrawl(amount){
+            amount+=(amountInp.value)
+            if(isNaN(amount) || amount<0 || amount==""){
+                alert("Enter valid amount")
+                return;
+            }
+            if(amount>balance){
+                alert("Insufficient balance!")
+            }else{
+                balnace-=amount
+                displaybalancee()
+            }
+            amountInp.value=""
+        }
+        function deposit(){
+            amount=+(amountInp.value);
+            if(isNaN(amount) || amount<0 || amount==""){
+                alert("Enter valid amount")
+                return;
+            }
+            balnace+=amount
+                displaybalancee()
+                amountInp.value=""
+        }
+        function checkbalance(){
+            alert(`your current balance is ${balance}`)
+        }
+        function displaybalancee(){
+            displaybalance.textcontent="Balance:Rs."+balance}
+        
+    </script>
+</body>
+
+</html>
