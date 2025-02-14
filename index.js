@@ -1384,7 +1384,8 @@
 // console.log(res)//aaeaa
 
 
-//pattrens
+// ----------------patterns---------------------------
+// pattrens
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1394,6 +1395,11 @@
 //     }
 //     console.log(res)
 // }
+// * * * * * 
+// * * * * * 
+// * * * * * 
+// * * * * * 
+// * * * * * 
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1407,6 +1413,11 @@
 //     }
 //     console.log(res)
 // }
+// // * * * * * 
+// // *       * 
+// // *       * 
+// // *       * 
+// // * * * * * 
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1420,6 +1431,11 @@
 //     }
 //     console.log(res)
 // }
+// // * * * * * 
+// // *         
+// // *         
+// // *         
+// // * * * * * 
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1433,6 +1449,11 @@
 //     }
 //     console.log(res)
 // }
+// *       * 
+// *       * 
+// *       * 
+// *       * 
+// * * * * * 
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1446,6 +1467,11 @@
 //     }
 //     console.log(res)
 // }
+// // *       * 
+// // *       * 
+// // *       * 
+// // *       * 
+// // *       * 
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1459,6 +1485,11 @@
 //     }
 //     console.log(res)//H
 // }
+// // *       * 
+// // *       * 
+// // * * * * * 
+// // *       * 
+// // *       * 
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1472,6 +1503,11 @@
 //     }
 //     console.log(res)//i
 // }
+// // * * * * * 
+// //     *     
+// //     *     
+// //     *     
+// // * * * * *
 // rows=5
 // cols=5
 // for(i=1;i<=rows;i++){
@@ -1485,18 +1521,11 @@
 //     }
 //     console.log(res)
 // }
-// rows=5;
-// cols=5;
-// for(i=1;i<=rows;i++){
-//     res=""
-//     for(j=1;j<=cols;j++){
-//         if(i==1||i==rows||j==1||j==cols||i==j)
-//             res=res+"*"+" "
-//         else
-//             res=res+" "+" "
-//         }
-//         console.log(res)
-// }
+// // * * * * * 
+// // * *     * 
+// // *   *   * 
+// // *     * * 
+// // * * * * * 
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1509,6 +1538,11 @@
 //         }
 //         console.log(res)
 // }
+// // * * * * * 
+// // * *   * * 
+// // *   *   * 
+// // * *   * * 
+// // * * * * * 
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1521,6 +1555,11 @@
 //         }
 //         console.log(res)
 // }
+// // *       * 
+// //   *   *   
+// //     *     
+// //   *   *   
+// // *       * 
 // rows=5;
 // for(i=1;i<=rows;i++){
 //     res=""
@@ -1529,6 +1568,11 @@
 //     }
 //     console.log(res)
 // }
+// // * 
+// // * * 
+// // * * * 
+// // * * * * 
+// // * * * * *
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1540,6 +1584,11 @@
 //     }
 //     console.log(res)
 // }
+// // 1 
+// // 2 2 
+// // 3 3 3 
+// // 4 4 4 4 
+// // 5 5 5 5 5 
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1551,7 +1600,11 @@
 //     }
 //     console.log(res)
 // }
-
+// // 5 
+// // 4 4 
+// // 3 3 3 
+// // 2 2 2 2 
+// // 1 1 1 1 1
 // row=5;
 // num=1;
 // for(i=1;i<=row;i++){
@@ -1564,6 +1617,11 @@
 //     }
 //     console.log(res)
 // }
+// 1 
+// 2 3 
+// 4 5 6 
+// 7 8 9 10 
+// 11 12 13 14 15 
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1575,6 +1633,11 @@
 //     }
 //     console.log(res)
 // }
+// // 1 
+// // 1 2 
+// // 1 2 3 
+// // 1 2 3 4 
+// // 1 2 3 4 5 
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1586,6 +1649,11 @@
 //     }
 //     console.log(res)
 // }
+// // 2 
+// // 2 4 
+// // 2 4 6 
+// // 2 4 6 8 
+// // 2 4 6 8 10
 // rows=5;
 // cols=5;
 // for(i=1;i<=rows;i++){
@@ -1597,17 +1665,12 @@
 //     }
 //     console.log(res)
 // }
-// rows=5;
-// cols=5;
-// for(i=1;i<=rows;i++){
-//     res=""
-//     for(j=1;j<=cols;j++){
-//         if(j<=i || ){
-//         res=res+()+" "
-//     }
-//     }
-//     console.log(res)
-// }
+// // 1 
+// // 1 3 
+// // 1 3 5 
+// // 1 3 5 7 
+// // 1 3 5 7 9 
+
 // row=5
 // function isPrime(n){
 //     for(k=2;k<n;k++){
@@ -1636,6 +1699,11 @@
 //      }
 //      console.log(res)
 //  }
+// //  2 
+// // 2 3 
+// // 2 3 5 
+// // 2 3 5 7 
+// // 2 3 5 7 11
 // row=8
 // function isPrime(n){
 //     for(k=2;k<n;k++){
@@ -1664,45 +1732,66 @@
 //      console.log(res)
 //  }
 
-
+// // 2 
+// // 3 5 
+// // 7 11 13 
+// // 17 19 23 29 
+// // 31 37 41 43 47 
+// // 53 59 61 67 71 73 
+// // 79 83 89 97 101 103 107 
+// // 109 113 127 131 137 139 149 151 
 
 // for(i=1;i<=5;i++){
-    //     res=""
-    //     for(j=1;j<=5;j++){
-    //         if(j<=i){
-    //             res=res+"*"+" "
-    //         }else{
-    //             res=res+" "+" "
-    //         }
-    //     }
-    //     console.log(res)
-    // }
-    // for(i=1;i<=5;i++){
-    //     res=""
-    //     for(j=1;j<=5;j++){
-    //         if(j<=i){
-    //             res=res+"1"+" "
-    //         }else{
-    //             res=res+" "+" "
-    //         }
-    //     }
-    //     console.log(res)
-    // }
-    // for(i=1;i<=5;i++){
-    //     res=""
-    //     for(j=1;j<=5;j++){
-    //         if(j<=i){
-    //             if((i+j)%2==0){
-    //             res=res+1+" "
-    //         }else{
-    //             res=res+0+" "
-    //         }
-    //     }
-    // }    
-    // console.log(res)
-    // }
-
-    // for(i=1;i<=5;i++){
+//         res=""
+//         for(j=1;j<=5;j++){
+//             if(j<=i){
+//                 res=res+"*"+" "
+//             }else{
+//                 res=res+" "+" "
+//             }
+//         }
+//         console.log(res)
+//     }
+// // *         
+// // * *       
+// // * * *     
+// // * * * *   
+// // * * * * * 
+//     for(i=1;i<=5;i++){
+//         res=""
+//         for(j=1;j<=5;j++){
+//             if(j<=i){
+//                 res=res+"1"+" "
+//             }else{
+//                 res=res+" "+" "
+//             }
+//         }
+//         console.log(res)
+//     }
+// // 1         
+// // 1 1       
+// // 1 1 1     
+// // 1 1 1 1   
+// // 1 1 1 1 1
+//     for(i=1;i<=5;i++){
+//         res=""
+//         for(j=1;j<=5;j++){
+//             if(j<=i){
+//                 if((i+j)%2==0){
+//                 res=res+1+" "
+//             }else{
+//                 res=res+0+" "
+//             }
+//         }
+//     }    
+//     console.log(res)
+//     }
+// // 1 
+// // 0 1 
+// // 1 0 1 
+// // 0 1 0 1 
+// // 1 0 1 0 1 
+//     for(i=1;i<=5;i++){
 //     res=""
 //     for(j=1;j<=5;j++){
 //         if(j<=5-i+1){
@@ -1711,6 +1800,11 @@
 //     }
 //     console.log(res)
 // }
+// * * * * * 
+// * * * * 
+// * * * 
+// * * 
+// * 
 // for(i=1;i<=5;i++){
 //     res=""
 //     for(j=1;j<=5;j++){
@@ -1720,6 +1814,11 @@
 //     }
 //     console.log(res)
 // }
+// // 2 4 6 8 10 
+// // 2 4 6 8 
+// // 2 4 6 
+// // 2 4 
+// // 2 
 // for(i=1;i<=5;i++){
 //     res=""
 //     ascii=97
@@ -1731,6 +1830,11 @@
 //     }
 //     console.log(res)
 // }
+// // a b c d e 
+// // a b c d 
+// // a b c 
+// // a b 
+// // a 
 
 // for(i=1;i<=5;i++){
 //     res=""
@@ -1743,6 +1847,11 @@
 //     }
 //     console.log(res)
 // }
+// // A B C D E 
+// // A B C D 
+// // A B C 
+// // A B 
+// // A 
 // for(i=1;i<=5;i++){
 //     res=""
 //     ascii=65
@@ -1759,6 +1868,11 @@
 //     }
 //     console.log(res)
 // }
+// // a B c D e 
+// // a B c D 
+// // a B c 
+// // a B 
+// // a
 // for(i=1;i<=5;i++){
 //     res=""
 //     ascii=97
@@ -1775,6 +1889,11 @@
 //     }
 //     console.log(res)
 // }
+// // a b c d e 
+// // a b c d 
+// // a b c 
+// // a b 
+// // a 
 // for(i=1;i<=5;i++){
 //     res=""
 //     ascii=97
@@ -1791,6 +1910,11 @@
 //     }
 //     console.log(res)
 // }
+// // A b C d E 
+// // A b C d 
+// // A b C 
+// // A b 
+// // A 
 // row=5
 // for(i=1;i<=row;i++){
 //   res=""
@@ -1801,6 +1925,12 @@
 //   }
 //   console.log(res)
 // }
+// // 1 
+// // 2 2 
+// // 3 3 3 
+// // 4 4 4 4 
+// // 5 5 5 5 5 
+// row=5
 // for(i=1;i<=row;i++){
 //   res=""
 //   for(j=1;j<=row;j++){
@@ -1810,6 +1940,11 @@
 //   }
 //   console.log(res)
 // }
+// 1 1 1 1 1 
+// 2 2 2 2 
+// 3 3 3 
+// 4 4 
+// 5
 // row=5
 // for(i=1;i<=row;i++){
 //   res=""
@@ -1820,6 +1955,11 @@
 //   }
 //   console.log(res)
 // }
+// // 1 
+// // 2 2 
+// // 3 3 3 
+// // 4 4 4 4 
+// // 5 5 5 5 5 
 // row=row-1
 // for(i=1;i<=row;i++){
 //   res=""
@@ -1830,6 +1970,15 @@
 //   }
 //   console.log(res)
 // }
+// // 1 
+// // 2 2 
+// // 3 3 3 
+// // 4 4 4 4 
+// // 5 5 5 5 5 
+// // 4 4 4 4 
+// // 3 3 3 
+// // 2 2 
+// // 1
 
 // row=5
 // for(i=1;i<=row;i++){
@@ -1851,6 +2000,15 @@
 //   }
 //   console.log(res)
 // }
+// // 2 
+// // 4 4 
+// // 6 6 6 
+// // 8 8 8 8 
+// // 10 10 10 10 10 
+// // 8 8 8 8 
+// // 6 6 6 
+// // 4 4 
+// // 2 
 // row=5;
 // for(i=1;i<=row;i++){
 //     res=""
@@ -1862,6 +2020,11 @@
 //     }
 //     console.log(res)
 // }
+// //         * 
+// //       * * 
+// //     * * * 
+// //   * * * * 
+// // * * * * * 
 // row=5;
 // for(i=1;i<=row;i++){
 //     res=""
@@ -1873,6 +2036,11 @@
 //     }
 //     console.log(res)
 // }
+//         1 
+//       1 2 
+//     1 2 3 
+//   1 2 3 4 
+// 1 2 3 4 5
 // row=5;
 // for(i=1;i<=row;i++){
 //     res=""
@@ -1885,7 +2053,11 @@
 //     console.log(res)
 // }
 
-
+//         2 
+//       3 3 
+//     4 4 4 
+//   5 5 5 5 
+// 6 6 6 6 6 
 
 // row=5;
 // for(i=1;i<=row;i++){
@@ -1901,6 +2073,11 @@
 //     }
 //     console.log(res)
 // }
+//     * * * * * 
+//   * * * * * 
+//   * * * * * 
+//  * * * * * 
+// * * * * * 
 // row=5;
 // for(i=1;i<=row;i++){
 //     res=""
@@ -1919,31 +2096,11 @@
 // }
 //     console.log(res)
 // }
-
-
-// for(i=1;i<=5;i++){
-//     res=""
-//     // for(k=1;k<=5-i;k++){
-//     //     res=res+" "+" "
-//     // }
-//     for(k=1;k<=(5-i)*2;k++){
-//         res=res+" "
-//     }
-//     for(j=1;j<=i;j++){
-//         res=res+"*   "
-//     }
-//     console.log(res)
-// }
-// for(i=5-1;i>=1;i--){
-//     res=""
-//     for(k=1;k<=(5-i)*2;k++){
-//         res=res+" "
-//     }
-//     for(j=1;j<=i;j++){
-//         res=res+"*   "
-//     }
-//     console.log(res)
-// }
+// * * * * * 
+//  *       * 
+//   *       * 
+//   *       * 
+//     * * * * * 
 
 // for(i=1;i<=5;i++){
 //     res=""
@@ -1968,6 +2125,48 @@
 //     }
 //     console.log(res)
 // }
+//         *   
+//       *   *   
+//     *   *   *   
+//   *   *   *   *   
+// *   *   *   *   *   
+//   *   *   *   *   
+//     *   *   *   
+//       *   *   
+//         * 
+
+// for(i=1;i<=5;i++){
+//     res=""
+//     // for(k=1;k<=5-i;k++){
+//     //     res=res+" "+" "
+//     // }
+//     for(k=1;k<=(5-i)*2;k++){
+//         res=res+" "
+//     }
+//     for(j=1;j<=i;j++){
+//         res=res+"*   "
+//     }
+//     console.log(res)
+// }
+// for(i=5-1;i>=1;i--){
+//     res=""
+//     for(k=1;k<=(5-i)*2;k++){
+//         res=res+" "
+//     }
+//     for(j=1;j<=i;j++){
+//         res=res+"*   "
+//     }
+//     console.log(res)
+// }
+//         *   
+//       *   *   
+//     *   *   *   
+//   *   *   *   *   
+// *   *   *   *   *   
+//   *   *   *   *   
+//     *   *   *   
+//       *   *   
+//         *  
 
 // for(i=1;i<=5;i++){
 //     res=""
@@ -1979,6 +2178,11 @@
 //     }
 //     console.log(res)
 // }//left half pyramid
+//         * 
+//       * * 
+//     * * * 
+//   * * * * 
+// * * * * * 
 
 // for(i=1;i<=5;i++){
 //     res=""
@@ -1990,7 +2194,21 @@
 //     }
 //     console.log(res)
 // }//reverse left half pyramid
-
+// * * * * * 
+//   * * * * 
+//     * * * 
+//       * * 
+//         *
+// //         * 
+// //       * * 
+// //     * * * 
+// //   * * * * 
+// // * * * * * 
+// // * * * * * 
+// //   * * * * 
+// //     * * * 
+// //       * * 
+// //         *
 
 
 // row=4
@@ -2069,6 +2287,11 @@
 //     }
 //     console.log(res)
 // }//n
+// // *       * 
+// // * *     * 
+// // *   *   * 
+// // *     * * 
+// // *       *
 // row=5;
 // col=5;
 // for(i=1;i<=row;i++){
@@ -2082,46 +2305,50 @@
 //     }
 //     console.log(res)
 // }//z
+// // * * * * * 
+// //       *   
+// //     *     
+// //   *       
+// // * * * * * 
+
+// // let myMap=new Map();
+// // console.log(myMap)
+
+// // myMap.set(1,"haii")
+// // myMap.set(true,"true scene--1")
+// // myMap.set("hai","hai scene--1")
+// // console.log(myMap.get(1))
+// // console.log(myMap.has(1))
 
 
-// let myMap=new Map();
-// console.log(myMap)
-
-// myMap.set(1,"haii")
-// myMap.set(true,"true scene--1")
-// myMap.set("hai","hai scene--1")
-// console.log(myMap.get(1))
-// console.log(myMap.has(1))
-
-
-// for(let [key,val] of myMap){
-//     console.log(key,val)
-// }
-// for(let [key,val] of myMap){
-//     console.log(key)
-// }
-// myMap.clear()
-// console.log(myMap)
+// // for(let [key,val] of myMap){
+// //     console.log(key,val)
+// // }
+// // for(let [key,val] of myMap){
+// //     console.log(key)
+// // }
+// // myMap.clear()
+// // console.log(myMap)
 
 
-// let myMap=new Map();
-// myMap.set("father","srinivas reddy")
-// myMap.set("mother","srilatha")
-// myMap.set("sister","vyshnavi")
-// console.log(myMap)
-// console.log(myMap.get("mother"))
-// for(let [key,val] of myMap){
-//     console.log(key,val)
-// }
-// for(let [key,val] of myMap){
-//     console.log(key)
-// }
-// for(let [...key] of myMap){
-//     console.log(key)
-// }
-// //  myMap.clear()
-// //  console.log(myMap)
-// console.log([...myMap])
+// // let myMap=new Map();
+// // myMap.set("father","srinivas reddy")
+// // myMap.set("mother","srilatha")
+// // myMap.set("sister","vyshnavi")
+// // console.log(myMap)
+// // console.log(myMap.get("mother"))
+// // for(let [key,val] of myMap){
+// //     console.log(key,val)
+// // }
+// // for(let [key,val] of myMap){
+// //     console.log(key)
+// // }
+// // for(let [...key] of myMap){
+// //     console.log(key)
+// // }
+// // //  myMap.clear()
+// // //  console.log(myMap)
+// // console.log([...myMap])
 
 
 
@@ -2181,7 +2408,7 @@
 // * * *     
 // * * * *   
 // * * * * * 
-//or
+// or
 // for(i=1;i<=6;i++){
 //     res=""
 //     for(k=1;k<=i-1;k++){
@@ -2293,6 +2520,7 @@
 // //   * * * * 
 // // * * * * * 
 
+
 //strings-zigzag
 
 // let str=prompt('enter a string:')
@@ -2335,13 +2563,100 @@
 
 
 
+// let arr = [1,23,0,4,0,56,0,1,0]
+// let i = 0;
+// for(let num of arr){
+//     if(num!==0){
+//         arr[i]=num;
+//         i++
+//     }
+// }
+// arr.length=i;
+// console.log(arr)//[ 1, 23, 4, 56, 1 ]
 
 
 
+// const obj = {
+//     "1":{
+//         "1.1":"karunakar",
+//         "1.2":"30",
+//         "1.3":"male"
+//     },
+//     "2":{
+//         "2.1":"chaitanya",
+//         "2.2":"30",
+//         "2.3":"male"
+//     }
+// }
+
+// // const keys = Object.keys(obj["1"]); 
+// // const arr = keys.map(key => Object.values(obj).map(item => item[key]));
+
+// // console.log(arr);
+// // // [
+// // //   [ 'karunakar', undefined ],
+// // //   [ '30', undefined ],
+// // //   [ 'male', undefined ]
+// // // ]
+
+// let arr = []
+// for(let key in obj["1"]){
+//     arr.push([])
+// }
+// let i = 0;
+// for(let key in obj["1"]){
+//     for(let okey in obj){
+//         arr[i].push(obj[okey][key])
+//     }
+//     i++;
+// }
+// console.log(arr)
 
 
+// const arr = {
+//     "file1": [
+//       {
+//         "subFile1": "index.js",
+//         "subFile2": "about.js",
+//         "subFile3": "contact.js"
+//       },
+//     ],
+//     "file2": [
+//       {
+//         "subFile1": "index.js",
+//         "subFile2": "about.js",
+//         "subFile3": "service.js"
+//       },
+//     ]
+//   };
+  
+//   const result = Object.keys(arr).map(fileKey => {
+//     const subFiles = arr[fileKey][0]; 
+//     return {
+//       [fileKey]: Object.values(subFiles)  
+//     };
+//   });
+  
+//   console.log(result);
 
 
+// console.log("hello world")
+// function sum (a,b){
+//     sum=a+b
+//     console.log("sum is",sum)
+// }
+// sum(2,3)
+// function caluculateArea(length,width){
+//     if(length <= 0){
+//         throw new RangeError("Length should be a positive number");
+//     }
+//     if(width <= 0){
+//         throw new RangeError("Length should be a positive number");
+//     }
+//   const area=length*width;
+//   console.log("area of rectangle is",area)
+// }
+// caluculateArea(-2,-3)
 
 
 
