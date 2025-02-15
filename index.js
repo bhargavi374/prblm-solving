@@ -2658,7 +2658,19 @@
 // }
 // caluculateArea(-2,-3)
 
-
+// for (let i = 0; i < 10; i++) {
+//     if (i % 2 === 0) {
+//       continue; // Skip even numbers
+//     }
+//     console.log(i); // This will only log odd numbers
+//   }
+//   for (let i = 0; i < 10; i++) {
+//     if (i === 5) {
+//       break; // Exit the loop when i is 5
+//     }
+//     console.log(i); // This will log numbers 0 to 4
+//   }
+  
 
 
 
