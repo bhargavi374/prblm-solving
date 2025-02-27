@@ -529,3 +529,85 @@
 //     return true
 // }
 // console.log(Array([1,2,3,4,5]))
+
+
+// patterns
+// row=+prompt("enter no of rows:")
+// for(i=1;i<=row;i++){
+//     res=" "
+//     for(j=1;j<=i;j++){
+//         res=res+"*"+" "
+//     }
+//     console.log(res)
+// }
+// enter no of rows:6
+//  * 
+//  * * 
+//  * * * 
+//  * * * * 
+//  * * * * * 
+//  * * * * * * 
+// row=+prompt("enter no of rows:")
+// for(i=1;i<=row;i++){
+//     res=" "
+//     for(j=1;j<=i;j++){
+//         res=res+j+" "
+//     }
+//     console.log(res)
+// }
+// enter no of rows:6
+//  1 
+//  1 2 
+//  1 2 3 
+//  1 2 3 4 
+//  1 2 3 4 5 
+//  1 2 3 4 5 6 
+// row=+prompt("enter no of rows:")
+// value=1
+// for(i=2;i<=row;i++){
+//     res=" "
+//     for(j=2;j<=i;j++){
+//         res=res+value+" "
+//         value++
+//     }
+//     console.log(res)
+// }
+// enter no of rows:6
+//  1 
+//  2 3 
+//  4 5 6 
+//  7 8 9 10 
+//  11 12 13 14 15 
+// row=+prompt("enter no of rows:")
+// value=1
+// for(i=1;i<=row;i++){
+//     res=" "
+//     for(j=1;j<=i;j++){
+//         res=res+value+" "
+//         value++
+//     }
+//     console.log(res)
+// }
+// enter no of rows:6
+//  1 
+//  2 3 
+//  4 5 6 
+//  7 8 9 10 
+//  11 12 13 14 15 
+//  16 17 18 19 20 21 
+
+// row=+prompt("enter no of rows:")
+// for(i=1;i<=row;i++){
+//     res=" "
+//     for(j=1;j<=row-i+1;j++){
+//         res=res+j+" "
+//     }
+//     console.log(res)
+// }
+// enter no of rows:6
+//  1 2 3 4 5 6 
+//  1 2 3 4 5 
+//  1 2 3 4 
+//  1 2 3 
+//  1 2 
+//  1
