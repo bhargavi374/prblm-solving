@@ -459,3 +459,73 @@
 
 
 
+// let arr = [3,1,4,1,5,9]
+// max = arr[0]
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max=arr[i]
+//     }
+// }
+// console.log(max)
+
+
+// function largest(arr){
+//     max=arr[0]
+//     for(i=0;i<arr.length;i++){
+//         if(arr[i]>max){
+//             max=arr[i]
+//         }
+//     }
+//     return max
+// }
+// console.log(largest([3,1,4,5,9]))//9
+
+
+// function secondLargest(arr){
+//     max=arr[0]
+//     secondmax=arr[0]
+//     for(i=0;i<arr.length;i++){
+//         if(arr[i]>max){
+//             secondmax=max
+//             max=arr[i]
+//         }
+//         else if(arr[i]>secondmax && arr[i]<max){
+//             secondmax=arr[i]
+//         }
+//     }
+//     return secondmax
+// }
+// console.log(secondLargest([3,1,4,5,9]))//5
+
+// function sum(arr){
+//     sum=0;
+//     for(i=0;i<arr.length;i++){
+//         sum=sum+arr[i]
+//     }
+//     return sum;
+// }
+// console.log(sum([3,1,4,2]))//10
+
+// //removing dups
+// function Duplicate(arr){
+//     emp=[]
+//     for(i=0;i<arr.length;i++){
+//         if(!emp.includes(arr[i])){
+//             emp.push(arr[i])
+//         }
+//     }
+//     return emp
+// }
+// console.log(Duplicate([3,1,1,4,2,5,9,9,2]))
+
+
+// //check if array is sorted
+// function Array(arr){
+//     for(i=0;i<arr.length;i++){
+//         if(arr[i]>arr[i+1]){
+//             return false
+//         }
+//     }
+//     return true
+// }
+// console.log(Array([1,2,3,4,5]))
