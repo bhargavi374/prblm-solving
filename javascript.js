@@ -611,3 +611,37 @@
 //  1 2 3 
 //  1 2 
 //  1
+
+
+
+// function triangle(height){
+//     for(let i=1;i<=height;i++){
+//     const spaces=''.repeat(height-1);
+//     const stars='*'.repeat(i*2-1);
+//     console.log(spaces+stars);
+// }
+// }
+// const height = 5
+// triangle(height)
+// *
+// ***
+// *****
+// *******
+// ********* pyramid
+// function robits(integer){
+//     const br=integer.toString(2).padStart(8,'0')
+//     const rb = br.split("").reverse().join("");
+//     const ri=parseInt(rb,2);
+//     console.log(`original integer:${integer}`)
+//     console.log(`binaryrepresentation:${br}`)
+//     console.log(`reversed binary:${rb}`)
+//     console.log(`reversed integer:${ri}`)
+// }
+// robits(4)
+// robits(14)
+// robits(56)
+// robits(234)
+// original integer:4
+// binaryrepresentation:00000100
+// reversed binary:00100000
+// reversed integer:32
