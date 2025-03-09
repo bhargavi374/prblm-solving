@@ -2673,7 +2673,16 @@
   
 
 
-
+// str="a2e1a2b3c2d1"
+// console.log(arr=str.split(""))
+// res=""
+// vowels="aeiouAEIOU"
+// for(i=0;i<arr.length;i+=2){
+//     if(vowels.includes(arr[i])){
+//         res=res+arr[i].repeat(Number(arr[i+1]))
+//     }
+// }
+// console.log(res)
 
 
 
