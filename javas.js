@@ -295,3 +295,373 @@
 // ✅ async functions always return a Promise.
 // ✅ Use .then() to handle the returned Promise.
 // ✅ Use await inside an async function to simplify handling the Promise.
+
+
+
+
+
+
+
+// // arr = [10, 5, 8, 20, 15];
+// // largest = -Infinity;
+// // secondLargest = -Infinity;
+
+// // for (i = 0; i < arr.length; i++) {
+// //     if (arr[i] > largest) {
+// //         secondLargest = largest;
+// //         largest = arr[i];
+// //     } else if (arr[i] > secondLargest && arr[i] != largest) {
+// //         secondLargest = arr[i];
+// //     }
+// // }
+// // console.log(secondLargest); // Output: 15
+
+// str = "hello";
+// reversed = "";
+
+// for (i = str.length - 1; i >= 0; i--) {
+//     reversed = reversed + str[i];
+// }
+// console.log(reversed); // Output: "olleh"
+
+// str = "radar";
+// isPalindrome = true;
+
+// for (i = 0; i < str.length / 2; i++) {
+//     if (str[i] != str[str.length - 1 - i]) {
+//         isPalindrome = false;
+//         break;
+//     }
+// }
+// console.log(isPalindrome); // Output: true
+
+// // arr = [1, 2, 3, 4, 6];
+// // sum = 6;
+// // found = false;
+
+// // for (i = 0; i < arr.length; i++) {
+// //     for (j = i + 1; j < arr.length; j++) {
+// //         if (arr[i] + arr[j] == sum) {
+// //             console.log(arr[i], arr[j]); // Output: 2 4
+// //             found = true;
+// //             break;
+// //         }
+// //     }
+// //     if (found) break;
+// // }
+// // 5. Factorial of a Number Without Recursion
+// // js
+// // Copy
+// // Edit
+// // n = 5;
+// // fact = 1;
+
+// // for (i = 1; i <= n; i++) {
+// //     fact = fact * i;
+// // }
+// // console.log(fact); // Output: 120
+// // 6. Fibonacci Series Without Recursion
+// // js
+// // Copy
+// // Edit
+// // n = 6;
+// // a = 0;
+// // b = 1;
+// // console.log(a); // First term
+// // console.log(b); // Second term
+
+// // for (i = 2; i < n; i++) {
+// //     c = a + b;
+// //     console.log(c);
+// //     a = b;
+// //     b = c;
+// // }
+// // // Output: 0 1 1 2 3 5
+// // 7. Reverse a Number
+// // js
+// // Copy
+// // Edit
+// // num = 1234;
+// // rev = 0;
+
+// // while (num > 0) {
+// //     digit = num % 10;
+// //     rev = rev * 10 + digit;
+// //     num = Math.floor(num / 10);
+// // }
+// // console.log(rev); // Output: 4321
+// // 8. Find First Repeating Element
+// // js
+// // Copy
+// // Edit
+// // arr = [1, 2, 3, 2, 1];
+// // found = false;
+
+// // for (i = 0; i < arr.length; i++) {
+// //     for (j = i + 1; j < arr.length; j++) {
+// //         if (arr[i] == arr[j]) {
+// //             console.log(arr[i]); // Output: 2
+// //             found = true;
+// //             break;
+// //         }
+// //     }
+// //     if (found) break;
+// // }
+// // 9. Check If a Number is Prime
+// // js
+// // Copy
+// // Edit
+// // n = 7;
+// // isPrime = true;
+
+// // if (n < 2) isPrime = false;
+// // for (i = 2; i * i <= n; i++) {
+// //     if (n % i == 0) {
+// //         isPrime = false;
+// //         break;
+// //     }
+// // }
+// // console.log(isPrime); // Output: true
+// // 10. Find GCD (Greatest Common Divisor) Using Euclidean Algorithm
+// // js
+// // Copy
+// // Edit
+// // a = 48;
+// // b = 18;
+
+// // while (b != 0) {
+// //     temp = b;
+// //     b = a % b;
+// //     a = temp;
+// // }
+// // console.log(a); // Output: 6
+
+
+// 11. Find the Largest Element in an Array
+// js
+// Copy
+// Edit
+// arr = [10, 5, 8, 20, 15];
+// largest = arr[0];
+
+// for (i = 1; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//         largest = arr[i];
+//     }
+// }
+// console.log(largest); // Output: 20
+// 12. Find the Smallest Element in an Array
+// js
+// Copy
+// Edit
+// arr = [10, 5, 8, 20, 15];
+// smallest = arr[0];
+
+// for (i = 1; i < arr.length; i++) {
+//     if (arr[i] < smallest) {
+//         smallest = arr[i];
+//     }
+// }
+// console.log(smallest); // Output: 5
+// 13. Count Even and Odd Numbers in an Array
+// js
+// Copy
+// Edit
+// arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// evenCount = 0;
+// oddCount = 0;
+
+// for (i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 == 0) {
+//         evenCount++;
+//     } else {
+//         oddCount++;
+//     }
+// }
+// console.log("Even:", evenCount, "Odd:", oddCount); // Output: Even: 4 Odd: 4
+// 14. Swap Two Numbers Without Using a Third Variable
+// js
+// Copy
+// Edit
+// a = 5;
+// b = 10;
+
+// a = a + b; // a becomes 15
+// b = a - b; // b becomes 5
+// a = a - b; // a becomes 10
+
+// console.log(a, b); // Output: 10 5
+// 15. Check if an Array is Sorted
+// js
+// Copy
+// Edit
+// arr = [1, 2, 3, 4, 5];
+// isSorted = true;
+
+// for (i = 1; i < arr.length; i++) {
+//     if (arr[i] < arr[i - 1]) {
+//         isSorted = false;
+//         break;
+//     }
+// }
+// console.log(isSorted); // Output: true
+// 16. Find Missing Number in an Array (1 to N)
+// js
+// Copy
+// Edit
+// arr = [1, 2, 3, 5];
+// n = arr.length + 1;
+// sumExpected = (n * (n + 1)) / 2;
+// sumActual = 0;
+
+// for (i = 0; i < arr.length; i++) {
+//     sumActual += arr[i];
+// }
+// missingNumber = sumExpected - sumActual;
+// console.log(missingNumber); // Output: 4
+// 17. Count Frequency of Each Element in an Array
+// js
+// Copy
+// Edit
+// arr = [1, 2, 3, 2, 1, 3, 3];
+// counted = [];
+
+// for (i = 0; i < arr.length; i++) {
+//     count = 1;
+//     if (counted.includes(arr[i])) continue;
+
+//     for (j = i + 1; j < arr.length; j++) {
+//         if (arr[i] == arr[j]) count++;
+//     }
+
+//     counted.push(arr[i]);
+//     console.log(arr[i], ":", count);
+// }
+// // Output: 
+// // 1 : 2
+// // 2 : 2
+// // 3 : 3
+// 18. Remove Duplicates from an Array
+// js
+// Copy
+// Edit
+// arr = [1, 2, 3, 2, 1, 4, 5];
+// unique = [];
+
+// for (i = 0; i < arr.length; i++) {
+//     isDuplicate = false;
+//     for (j = 0; j < unique.length; j++) {
+//         if (arr[i] == unique[j]) {
+//             isDuplicate = true;
+//             break;
+//         }
+//     }
+//     if (!isDuplicate) {
+//         unique.push(arr[i]);
+//     }
+// }
+// console.log(unique); // Output: [1, 2, 3, 4, 5]
+// 19. Find the Intersection of Two Arrays
+// js
+// Copy
+// Edit
+// arr1 = [1, 2, 3, 4];
+// arr2 = [3, 4, 5, 6];
+// intersection = [];
+
+// for (i = 0; i < arr1.length; i++) {
+//     for (j = 0; j < arr2.length; j++) {
+//         if (arr1[i] == arr2[j]) {
+//             intersection.push(arr1[i]);
+//             break;
+//         }
+//     }
+// }
+// console.log(intersection); // Output: [3, 4]
+// 20. Find the Union of Two Arrays
+// js
+// Copy
+// Edit
+// arr1 = [1, 2, 3, 4];
+// arr2 = [3, 4, 5, 6];
+// union = [];
+
+// for (i = 0; i < arr1.length; i++) {
+//     union.push(arr1[i]);
+// }
+
+// for (i = 0; i < arr2.length; i++) {
+//     isPresent = false;
+//     for (j = 0; j < union.length; j++) {
+//         if (arr2[i] == union[j]) {
+//             isPresent = true;
+//             break;
+//         }
+//     }
+//     if (!isPresent) {
+//         union.push(arr2[i]);
+//     }
+// }
+// console.log(union); // Output: [1, 2, 3, 4, 5, 6]
+// 21. Find Maximum Subarray Sum (Kadane’s Algorithm)
+// js
+// Copy
+// Edit
+// arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+// maxSum = arr[0];
+// currentSum = arr[0];
+
+// for (i = 1; i < arr.length; i++) {
+//     if (currentSum < 0) {
+//         currentSum = arr[i];
+//     } else {
+//         currentSum += arr[i];
+//     }
+//     if (currentSum > maxSum) {
+//         maxSum = currentSum;
+//     }
+// }
+// console.log(maxSum); // Output: 6
+// 22. Find Two Elements Whose Sum is Closest to Zero
+// js
+// Copy
+// Edit
+// arr = [-10, -8, -3, 2, 4, 6, 8];
+// minSum = Infinity;
+// num1 = num2 = 0;
+
+// for (i = 0; i < arr.length - 1; i++) {
+//     for (j = i + 1; j < arr.length; j++) {
+//         sum = arr[i] + arr[j];
+//         if (Math.abs(sum) < Math.abs(minSum)) {
+//             minSum = sum;
+//             num1 = arr[i];
+//             num2 = arr[j];
+//         }
+//     }
+// }
+// console.log(num1, num2); // Output: -3 2
+// 23. Count Vowels and Consonants in a String
+// js
+// Copy
+// Edit
+// str = "hello world";
+// vowels = "aeiouAEIOU";
+// vowelCount = 0;
+// consonantCount = 0;
+
+// for (i = 0; i < str.length; i++) {
+//     if (str[i] >= 'a' && str[i] <= 'z' || str[i] >= 'A' && str[i] <= 'Z') {
+//         isVowel = false;
+//         for (j = 0; j < vowels.length; j++) {
+//             if (str[i] == vowels[j]) {
+//                 isVowel = true;
+//                 break;
+//             }
+//         }
+//         if (isVowel) vowelCount++;
+//         else consonantCount++;
+//     }
+// }
+// console.log("Vowels:", vowelCount, "Consonants:", consonantCount); 
+// // Output: Vowels: 3 Consonants: 7
